@@ -267,13 +267,13 @@ void Automaton::convertToDOT() const{
 
 void Automaton::rasterize(const String& str) const{
     convertToDOT();
-
-    const String dotCommand = dotCommand + "dot -Tpng data/automaton.dot -o images/" + str + ".png";
+    //path is relative to main.exe executable
+    const String dotCommand = "libs\\graphviz\\bin\\dot.exe -Tpng data\\automaton.dot -o images\\" + str + ".png";
     int result = std::system(dotCommand.c_str());
 
     if (result == 0)
         std::cout << "DOT file successfully converted to automaton.png!\n";
-    else 
+    else
         std::cerr << "Error: Failed to run Graphviz command.\n";
 }
 

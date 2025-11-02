@@ -1,1 +1,1 @@
-g++ main.cpp -Iinclude -Lbuild -lautomaton -o main.exe
+g++ src/main.cpp -Iinclude -Llibs -lautomaton -o main.exe
