@@ -1,0 +1,1 @@
+bin folder for graphviz has to be added manually because the file is too large to be uploaded on moodle

@@ -1,0 +1,1 @@
+g++ main.cpp -Iinclude -Lbuild -lautomaton -o main.exe

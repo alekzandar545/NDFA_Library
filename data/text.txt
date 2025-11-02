@@ -1,0 +1,11 @@
+a
+b
+c
+d
++
+?
+abcc
+abc
+abcccc
+abca
+abcaabca
