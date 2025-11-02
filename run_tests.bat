@@ -1,3 +1,4 @@
+if not exist build mkdir build
 g++ tests/regex_tests.cpp -Iinclude -Lbuild -lautomaton -o test.exe
 call "test.exe"
 
